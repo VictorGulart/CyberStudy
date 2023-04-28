@@ -1,15 +1,12 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
-
 from random import randint
 import numpy as np
 
-
 class PlayFair:
+    '''
+        OLD version of playfair implementation.
+        
+        It only allows for 5x5 playfair encryption.
+    '''
     def __init__(self, kw=None):
         '''  '''
         self.__kw = None
